@@ -10,6 +10,14 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
+    "paths": {
+      "ng-loader": [
+        "./dist/ng-loader"
+      ],
+      "ng-loader/*": [
+        "./dist/ng-loader/*"
+      ]
+    },
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
